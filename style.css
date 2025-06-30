@@ -535,13 +535,13 @@ footer {
 
 .footer-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(550px, 3fr));
+    grid-template-columns: repeat(auto-fit, minmax(55px, 3fr));
     margin-bottom: 20px;
     font-size: 1.5rem;
 }
 
 .footer-about h3 {
-    margin-left: 20rem;
+    margin-left: 2rem;
     color: var(--white);
     padding-top: 10px;
     margin-bottom: 10px;
@@ -549,14 +549,15 @@ footer {
 }
 
 .footer-about p {
-    margin-left: 20rem;
+    margin-left: 2rem;
     font-size: 1.5rem;
     color: #bdc3c7;
 }
 
 .footer-links h3 {
-    padding-top: 10px;
-    margin-left: 20rem;
+    margin-left: 15rem;
+    padding-top: 2px;
+    
     color: var(--white);
     margin-bottom: 20px;
     font-size: 2rem;
@@ -567,7 +568,7 @@ footer {
 }
 
 .footer-links li {
-    margin-left: 20rem;
+    margin-left: 15rem;
     margin-bottom: 10px;
     font-size: 1.5rem;
 }
@@ -583,7 +584,6 @@ footer {
 }
 
 .footer-social h3 {
-    padding-top: 10px;
     color: var(--white);
     margin-bottom: 20px;
     font-size: 2rem;
